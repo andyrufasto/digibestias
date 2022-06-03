@@ -1,0 +1,11 @@
+body {
+   background-image: url( 'haikei-bg.svg' );
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-clip: border-box;
+}
+
+.navbar-expand-lg {
+    background-color: #1A2839;
+}
+
