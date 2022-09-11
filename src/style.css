@@ -13,3 +13,34 @@ body {
 img {
 	z-index: -1;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('search.svg');
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  padding: 12px 20px 12px 40px;
+	text-align: center;
+	margin-left: auto;
+  margin-right: auto;
+	float: middle;
+}
+
+#table {
+	width: 50% !important;
+  font-size: 18px;
+	margin-left: auto;
+  margin-right: auto;
+}
+table th {
+   text-align: center;
+}
+
+table td {
+   text-align: center;
+}
+
