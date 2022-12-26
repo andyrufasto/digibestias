@@ -72,3 +72,13 @@ row {
     margin: 5px;
     text-align: center;     /* will center text in <p>, which is not a flex item */
 }
+
+
+.toast-header strong {
+  font-size: 200%;
+}
+
+.toast-body {
+  font-size: 200%;
+}
+
