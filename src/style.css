@@ -1,13 +1,13 @@
 body {
-   background-image: url( 'haikei-bg.svg' );
+	 background-attachment: fixed;
+	 background-position: center center;
 	 background-repeat: no-repeat;
 	 background-size: cover;
-	 background-position: center center;
-	 background-attachment: fixed;
+   background-image: url( 'haikei-bg.svg' );
 }
 
 .navbar-expand-lg {
-    background-color: #1A2839;
+   background-color: #1A2839;
 }
 
 img {
@@ -19,21 +19,22 @@ img {
 }
 
 #myInput {
+	display: flex;
+	float: middle;
+	margin-left: auto;
+	text-align: center;
   background-image: url('search.svg');
   background-position: 15px 15px;
   background-repeat: no-repeat;
   font-size: 20px;
-  padding: 12px 20px 12px 40px;
-	text-align: center;
-	margin-left: auto;
   margin-right: auto;
-	float: middle;
+  padding: 12px 20px 12px 40px;
 }
 
 #table {
+	margin-left: auto;
 	width: 50% !important;
   font-size: 18px;
-	margin-left: auto;
   margin-right: auto;
 }
 table th {
@@ -45,32 +46,32 @@ table td {
 }
 
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 row {
   width: 100%;
 }
 .flex-item {
   background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin: 10px;
-  line-height: 150px;
   color: white;
-  font-weight: bold;
   font-size: 3em;
+  font-weight: bold;
+  height: 150px;
+  line-height: 150px;
+  margin: 10px;
+  padding: 5px;
   text-align: center;
+  width: 200px;
 }
 
 .tg-01ax {
     margin: 5px;
-    text-align: center;     /* will center text in <p>, which is not a flex item */
+    text-align: center;
 }
 
 

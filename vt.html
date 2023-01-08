@@ -11,49 +11,65 @@
 <link rel="stylesheet" href="src/style.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <nav class="navbar navbar-expand-lg navbar-dark">
+
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Venta Tito</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#">DIGIBESTIAS</a>
+    <button 
+			aria-controls="navbarSupportedContent"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+			class="navbar-toggler"
+			data-bs-target="#navbarSupportedContent"
+			data-bs-toggle="collapse"
+			type="button">
+
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link active" aria-current="page" href="http://digibestias.tk/"><span class="glyphicon glyphicon-home"></span> Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#"><span class="glyphicon glyphicon-link"> Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Genexs
+          <a
+						aria-expanded="false"
+						class="nav-link dropdown-toggle"
+						data-bs-toggle="dropdown"
+						href="#" 
+						id="navbarDropdown"
+						role="button">
+						<span class="glyphicon glyphicon-tasks"></span>
+             Genexs
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="http://www.futstar.com/VALORES/faces/index" target="_blank">Conteos 1</a></li>
-            <li><a class="dropdown-item" href="http://www.genexs.pe:7001/VALORES/faces/index" target="_blank">Conteos 2</a></li>
+            <li><a class="dropdown-item" href="http://www.futstar.com/VALORES/faces/index" target="_blank">
+							  <span class="glyphicon glyphicon-tasks"></span> Conteos 1</a></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe:7001/VALORES/faces/index" target="_blank">
+								<span class="glyphicon glyphicon-tasks"></span> Conteos 2</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="http://www.genexs.pe/TallerYEnvios/" target="_blank">Taller</a></li>
-						<li><a class="dropdown-item" href="http://www.genexs.pe/bnet/" target="_blank">Bnet</a></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe/TallerYEnvios/" target="_blank"><span class="glyphicon glyphicon-wrench"></span>  Taller</a></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe/bnet/" target="_blank"><span class="glyphicon glyphicon-folder-open"></span>  Bnet</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Manuales</a>
+          <a class="nav-link disabled"> <span class="glyphicon glyphicon-tasks"></span> Manuales</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            TITO
-          </a>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="glyphicon glyphicon-print"></span> TITO </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="http://192.168.1.100/cashier" target="_blank">Cashier Interno</a></li>
-            <li><a class="dropdown-item" href="./index.html">Cashier</a></li>
+            <li><a class="dropdown-item" href="#" target="_blank">Cashier</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="http://www.genexs.pe/TallerYEnvios/" target="_blank">Maquinas Venta Tito</a></li>
+            <li><a class="dropdown-item" href="./vt.html">Maquinas Venta Tito</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://ww1.sunat.gob.pe/ol-ti-itrheemision/emisionrhe.do">RHE</a>
+          <a class="nav-link" target="_blank" href="https://ww1.sunat.gob.pe/ol-ti-itrheemision/emisionrhe.do"><i class="bi bi-receipt"></i> RHE</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0" role="search">
@@ -61,7 +77,8 @@
     </div>
   </div>
 </nav>
-    <title>MAQUINA VENTA TITO</title>
+
+   <title>MAQUINA VENTA TITO</title>
 
   </head>
 
@@ -71,12 +88,15 @@
 <body>
 
 				<h1 class="text-center"><b>Maquinas de Venta Tito</b></h1>
-<div class="input-group mb-3">
+
+<div class="align-middle">
+<div class="input-group">
 
 
 <input type="text-center" id="myInput" onkeyup="myFunction()" placeholder="Busca la sala" title="Type in a name">
 </div>
-
+</div>
+<br>
 <div class="align-middle">
 <table id="table" class="table-hover">
   <tr class="header-dark">
@@ -179,7 +199,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">CHIMBOTE 1</td>
-    <td class="tg-0lax">28082</td>
+    <td class="tg-0lax">32141</td>
   </tr>
   <tr>
     <td class="tg-0lax">CHIMBOTE 3</td>
@@ -346,8 +366,12 @@
     <td class="tg-0lax">31128</td>
   </tr>
   <tr>
+  <tr>
     <td class="tg-0lax">LAMBAYEQUE</td>
     <td class="tg-0lax">24352</td>
+  </tr>
+    <td class="tg-0lax">LAMBAYEQUE 2</td>
+    <td class="tg-0lax">31170</td>
   </tr>
   <tr>
     <td class="tg-0lax">LOS OLIVOS 2</td>
@@ -475,7 +499,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">TARAPOTO 5</td>
-    <td class="tg-0lax">NO TIENE</td>
+    <td class="tg-0lax">28171</td>
   </tr>
   <tr>
     <td class="tg-0lax">TRUJILLO 1</td>
@@ -515,7 +539,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">ZARATE 1</td>
-    <td class="tg-0lax">27000</td>
+    <td class="tg-0lax">29599</td>
   </tr>
   <tr>
     <td class="tg-0lax">ZARATE 2</td>
@@ -527,7 +551,7 @@
   </tr>
   <tr>
     <td class="tg-0lax">ZARATE 4</td>
-    <td class="tg-0lax">20810</td>
+    <td class="tg-0lax">30541</td>
   </tr>
   <tr>
     <td class="tg-0lax">PUERTO MALDONADO</td>
