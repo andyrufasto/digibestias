@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+<link
+	crossorigin="anonymous"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	rel="stylesheet">
+<link
+	crossorigin="anonymous"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="src/style.css">
+
+    <!-- Bootstrap JS -->
+<script
+	crossorigin="anonymous"
+	integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js">
+</script>
+<script
+	crossorigin="anonymous"
+	integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="src/update-map.js"></script>
+
+
+    <!-- NavBar Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">DIGIBESTIAS</a>
+    <button 
+			aria-controls="navbarSupportedContent"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+			class="navbar-toggler"
+			data-bs-target="#navbarSupportedContent"
+			data-bs-toggle="collapse"
+			type="button">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://digibestias.tk/"><span class="glyphicon glyphicon-home"></span> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><span class="glyphicon glyphicon-link"> Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+						aria-expanded="false"
+						class="nav-link dropdown-toggle"
+						data-bs-toggle="dropdown"
+						href="#" 
+						id="navbarDropdown"
+						role="button">
+						<span class="glyphicon glyphicon-tasks"></span>
+             Genexs
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://www.futstar.com/VALORES/faces/index" target="_blank">
+							  <span class="glyphicon glyphicon-tasks"></span> Conteos 1</a></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe:7001/VALORES/faces/index" target="_blank">
+								<span class="glyphicon glyphicon-tasks"></span> Conteos 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe/TallerYEnvios/" target="_blank"><span class="glyphicon glyphicon-wrench"></span>  Taller</a></li>
+            <li><a class="dropdown-item" href="http://www.genexs.pe/bnet/" target="_blank"><span class="glyphicon glyphicon-folder-open"></span>  Bnet</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"> <span class="glyphicon glyphicon-tasks"></span> Manuales</a>
+        </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="glyphicon glyphicon-print"></span> TITO </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="http://192.168.1.100/cashier" target="_blank">Cashier Interno</a></li>
+            <li><a class="dropdown-item" href="#" target="_blank">Cashier</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="./vt.html">Maquinas Venta Tito</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="http://digibestias.tk/salas.html"><i class="	glyphicon glyphicon-map-marker"></i> Salas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://ww1.sunat.gob.pe/ol-ti-itrheemision/emisionrhe.do"><i class="bi bi-receipt"></i> RHE</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" role="search">
+      </form>
+    </div>
+  </div>
+</nav>
+    <title>SALAS</title>
+
+  </head>
+
+  <body>
+					<h1 class="text-center"><b>SALAS</b></h1>
+
+
+<h2 class="text-center">Dirección de las Salas</h2>
+<br>
+
+
+
+<script
+	crossorigin="anonymous"
+	integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+</script>
+
+
+    <div class="text-center">
+        <select id="address-select" onchange="updateMap()">
+								<option value="Ave Arenas 170, Abancay 03001">	ABANCAY 1</option>
+								<option value="3S 103, Abancay 03001">	ABANCAY 2</option>
+								<option value="Jirón Ramón Castilla 501, Andahuaylas 03701">	ANDAHUAYLAS 1-2</option>
+								<option value="C. Mercaderes 408, Arequipa 04001">	AREQUIPA 1</option>
+								<option value="Portal de San Agustín 115, Arequipa 04001">	AREQUIPA 2</option>
+								<option value="">	ATE</option>
+								<option value="Av. Mariscal Cáceres, Ayacucho 05001">	AYACUCHO</option>
+								<option value="Jr. Mesones Muro 281, Bagua Grande 01621">	BAGUA GRANDE</option>
+								<option value="Jirón José Gálvez 245, Barranca 15169">	BARRANCA 1</option>
+								<option value="Jirón José Gálvez 511, Barranca 15169">	BARRANCA 2</option>
+								<option value="Jirón José Gálvez 201, Barranca 15169">	BARRANCA 3</option>
+								<option value="Av. Almte. Miguel Grau 423, Lima 15063">	BARRANCO 1</option>
+								<option value="Av. Simón Bolivar 1833, Pueblo Libre 15084">	BOLIVAR</option>
+								<option value="Jr. Tarapacá 786, Cajamarca 06001">	CAJAMARCA 1</option>
+								<option value="Av. Héroes de San Ramón 466, Cajamarca 06002">	CAJAMARCA 2</option>
+								<option value="Jirón Marañón 235, Cajamarca 06001">	CAJAMARCA 3</option>
+								<option value="Av. Canadá 360, La Victoria 15034">	CANADA</option>
+								<option value="">	CANTO GRANDE 1</option>
+								<option value="">	CANTO GRANDE 2</option>
+								<option value="Pedro Ruiz 976, Chiclayo 14001">	CHICLAYO 1</option>
+								<option value="Av. José Balta 1318, Chiclayo 14001">	CHICLAYO 2</option>
+								<option value="Jirón Leoncio Prado 623, Chimbote 02803">	CHIMBOTE 1</option>
+								<option value="Jr. Elías Aguirre 220, Chimbote 02803">	CHIMBOTE 3</option>
+								<option value="Av Oscar R. Benavides 198, 11702">	CHINCHA 1</option>
+								<option value="Av Oscar R. Benavides 220, Sunampe 11702">	CHINCHA 3</option>
+								<option value="Av Oscar R. Benavides 391, 11701">	CHINCHA 4</option>
+								<option value="Av. Defensores del Morro 914, Cercado de Lima 15064">	CHORRILLOS</option>
+								<option value="Calle Junin 122, Lurigancho-Chosica 15468">	CHOSICA 1</option>
+								<option value="3884+F7M, Lurigancho-Chosica 15468">	CHOSICA 2</option>
+								<option value="Av. Óscar R. Benavides 3112, Bellavista 07011">	COLONIAL</option>
+								<option value="Jirón Ucayali 331, Lima 15001">	COLVILLE</option>
+								<option value="Av. Túpac Amaru 865, Lima 15311">	COMAS 1</option>
+								<option value="Av. Túpac Amaru 1821, Comas 15312">	COMAS 2</option>
+								<option value="Av. Victor Andrés Belaunde 286, Comas 15312">	COMAS 3</option>
+								<option value="Av. Túpac Amaru 3021, Comas 15312">	COMAS 4</option>
+								<option value="Mexico 478, Comas 15311">	COMAS 5</option>
+								<option value="Almagro 151, Cusco 08002">	CUSCO 1</option>
+								<option value="Meson De La Estrella 140, Cusco 08002">	CUSCO 2</option>
+								<option value="Av. Alfonso Ugarte 436, Lima 15082">	DOS DE MAYO</option>
+								<option value="Reynaldo Saavedra Pinón 2615, Lima 15081">	ELIO</option>
+								<option value="Av. Aviación 384, La Victoria 15018">	GAMARRA</option>
+								<option value="Avenida 28 de Julio 530, Huacho 15136">	HUACHO 1</option>
+								<option value="Av. Echenique 205, Huacho 15136">	HUACHO 2</option>
+								<option value="Av. Echenique 205, Huacho 15136">	HUACHO 3</option>
+								<option value="Av. Giráldez 221, Huancayo 12001">	HUANCAYO</option>
+								<option value="Calle Derecha 496, Huaral 15201">	HUARAL 1</option>
+								<option value="Calle Derecha 496, Huaral 15201">	HUARAL 2</option>
+								<option value="Av. Mariscal Toribio de Luzuriaga 570, Huaraz 02001">	HUARAZ 1</option>
+								<option value="Av. Mariscal Toribio de Luzuriaga 421, Huaraz 02001">	HUARAZ 2</option>
+								<option value="Av. Fitzcarrald 276, Huaraz 02001">	HUARAZ 4</option>
+								<option value="Av. Mariscal Toribio de Luzuriaga 477, Huaraz 02001">	HUARAZ 5</option>
+								<option value="Avenida Cabo 203, Huarmey 02651">	HUARMEY 2</option>
+								<option value="Av Grau 385, Ica 11001">	ICA 1</option>
+								<option value="Av. Municipalidad 100, Ica 11000">	ICA 2</option>
+								<option value="Av. 28 de Julio 212, Ilo 18601">	ILO</option>
+								<option value="Jirón Próspero 248, Iquitos 16002">	IQUITOS 1</option>
+								<option value="Napo 308, Iquitos 16002">	IQUITOS 2</option>
+								<option value="Jirón Próspero 725, Iquitos 16006">	IQUITOS 3</option>
+								<option value="Jirón Próspero 541, Iquitos 16006">	IQUITOS 4</option>
+								<option value="Napo 373, Iquitos 16002">	IQUITOS 6</option>
+								<option value="Alfonso Villanueva Pinillos 191-107, Jaén 06801">	JAEN</option>
+								<option value="Jr. Lima 216, Juliaca 21104">	JULIACA 1</option>
+								<option value="Jr. Mariano Nuñez 594, Juliaca">	JULIACA 2</option>
+								<option value="Jr. Raúl Porras Barrenechea 494, Juliaca 21104">	JULIACA 3</option>
+								<option value="73WW+6XF, Lambayeque 14013">	LAMBAYEQUE</option>
+								<option value="Atahualpa 223-105, Lambayeque 14013">	LAMBAYEQUE 2</option>
+								<option value="Av. Carlos Izaguirre 486, Los Olivos 15301">	LOS OLIVOS 2</option>
+								<option value="Av. Santiago Antunez de Mayolo 1220, Lima 15301">	LOS OLIVOS 3</option>
+								<option value="F, Lurín 15823">	LURIN</option>
+								<option value="Av. Manco Cápac 1000, La Victoria 15033">	MANCO CAPAC</option>
+								<option value="C. Moquegua 686, Moquegua 18001">	MOQUEGUA</option>
+								<option value="Serafín Filomeno 615, Moyobamba 22001">	MOYOBAMBA 1</option>
+								<option value="Loreto 574, Piura 20001">	PIURA 1</option>
+								<option value="">	PIURA 2</option>
+								<option value="Jr.Ucayali 329, Pucallpa 25001">	PUCALLPA 1</option>
+								<option value="Jr.Ucayali 744, Pucallpa 25001">	PUCALLPA 2</option>
+								<option value="Jr. Sucre 637, Pucallpa 25001">	PUCALLPA 3</option>
+								<option value="23, Pucallpa 25001">	PUCALLPA 4</option>
+								<option value="3V, Puerto Maldonado 17001">	PUERTO MALDONADO</option>
+								<option value="Lima 442, Puno 21001">	PUNO 2</option>
+								<option value="Mza. H Lote. 19 Urb. El Rosario Lima Lima San Martin De Porres, San Germán">	SAN GERMAN</option>
+								<option value="Av. los Héroes 482, Lima 15801">	SAN JUAN 1</option>
+								<option value="Av San Juan 1169, San Juan de Miraflores 15801">	SAN JUAN 2</option>
+								<option value="Av. los Héroes 564, Lima 15801">	SAN JUAN 3</option>
+								<option value="Av. los Héroes 1180, Lima 15801">	SAN JUAN 4</option>
+								<option value="Av Ramon Vargas Machuca 336, San Juan de Miraflores 15801">	SAN JUAN 6</option>
+								<option value="Av. Perú 3098, San Martín de Porres 15106">	SAN MARTIN 1</option>
+								<option value="Av. Perú 1800, San Martín de Porres 15101">	SAN MARTIN 2</option>
+								<option value="Av. Perú 3621, Lima 15106">	SAN MARTIN 3</option>
+								<option value="Av. Perú 1758, San Martín de Porres 15101">	SAN MARTIN 4</option>
+								<option value="Av. Perú 3634, San Martín de Porres 15106">	SAN MARTIN 5</option>
+								<option value="Av. Las Alondras 305, Santa Anita 15009">	SANTA ANITA</option>
+								<option value="San Martin 590, Sullana 20101">	SULLANA 1</option>
+								<option value="San Martin 734, Sullana 20101">	SULLANA 3</option>
+								<option value="Av. San Martin 549, Tacna 23001">	TACNA</option>
+								<option value="Jirón San Martín 220, Tarapoto 22202">	TARAPOTO 1-2</option>
+								<option value="Jirón San Martín 220, Tarapoto 22202">	TARAPOTO 3</option>
+								<option value="Jirón Jimenez Pimentel 115, Tarapoto 22202">	TARAPOTO 4</option>
+								<option value="Jirón Jimenez Pimentel 438, Tarapoto 22202">	TARAPOTO 5</option>
+								<option value="Av. César Vallejo 237, Trujillo 13006">	TRUJILLO 1</option>
+								<option value="Jirón Orbegoso 772, Trujillo 13001">	TRUJILLO 2</option>
+								<option value="Av. Manuel Vera Enriquez N° 470, Trujillo 13001">	TRUJILLO 3</option>
+								<option value="Av. Tumbes 265, Tumbes 24001">	TUMBES 1</option>
+								<option value="C. Bolivar 318, Tumbes 24001">	TUMBES 2</option>
+								<option value="Av. Tumbes 229, Tumbes 24001">	TUMBES 3</option>
+								<option value="C. 1, Ventanilla 07061">	VENTANILLA 2</option>
+								<option value="Ventanilla 07056">	VENTANILLA 3</option>
+								<option value="Av. Juan Velasco Alvarado 937, Cercado de Lima 15831">	VILLA 2</option>
+								<option value="Av. Gran Chimu 866, Cercado de Lima 15401">	ZARATE 1</option>
+								<option value="Av. Gran Chimu 858, Lima 15401">	ZARATE 2</option>
+								<option value="Av. Gran Chimu 798, Lima 15401">	ZARATE 3</option>
+								<option value="Av. Gran Chimu 640, San Juan de Lurigancho 15401">	ZARATE 4</option>
+        </select>
+    </div>
+		<br>
+    <div class= "text-center">
+        <iframe id="map" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+
+
+</body>
+
+</html>
